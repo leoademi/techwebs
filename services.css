@@ -1,0 +1,560 @@
+body{
+
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	background-color:#FFF;
+}
+.container{
+	
+	width: 80%;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+header ul{
+
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	
+	background-color:#FFF;
+	padding-top: 20px;
+	min-height: 70px;
+	
+}
+
+header a{
+
+	color: #212121;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+header li{
+
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	font-size: 14px;
+
+}
+
+header #emri{
+
+	float: left;
+}
+
+header h1{
+	color: #2ea3f2;
+	margin: 0;
+	margin-top: 8px;	
+}
+
+header nav{
+	
+	float: right;
+	margin-top: 20px;
+}
+
+.container nav a:hover {
+
+	color: #ceda00;
+}
+
+#emri h1:first-letter {
+	color: #ceda00;
+}
+
+.register{
+  	color: #FFF;
+    border: 2px solid #2ea3f2;
+    border-radius: 3px;
+    padding: 2px 12px 2px 12px;
+    margin-top: -3px;
+	background: #2ea3f2;	
+	}
+.register a{
+	color: #FFF;
+}
+
+.foto{
+		width: 100%;
+	}
+
+.section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#section{
+	display: flex;
+}
+
+.foto-class{
+	display: flex;
+	justify-content: center;
+}
+
+/*FOOTER*/
+
+#footer{
+	background-color: #262626;
+	color: #FFF;
+	width: 100%;
+	height: 250px;
+}
+
+#footer h4{
+	text-align: center;
+	color: #2291eb;
+	padding-top: 20px;
+}
+
+.imgimg{
+
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin:0 auto;
+	padding-top: 30px;
+}
+
+.image{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footer p {
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+/*Fotoja background */
+
+.img1{
+	background: url(images/working5.webp) no-repeat 0 -550px;
+	height: 450px;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	
+}
+
+.img1::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: .5;
+	z-index: -1;
+
+}
+
+.pozicioni h1{
+	position: absolute;
+	left: 5%;
+	top: 40%;
+	color: #f4f4f4;
+	text-transform: uppercase;
+	font-size: 38px;
+	font-weight: 700;
+
+}
+
+/* UNORDER LISTA*/
+
+.pakoja{
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin: 0 auto;
+
+}
+
+.itmes-ul1{
+	margin-right: 70px;
+	margin-bottom: 80px;
+}
+
+/* UNORDER LISTA*/
+/* Projektet e nxensve */
+
+.projekti{
+
+	display: flex;
+	width: 80%;
+	
+	margin:0 auto;
+	justify-content: space-around;
+}
+
+.projektet{
+	flex-basis:30%;
+	margin-top: 20px;
+}
+
+.projekti{
+	height: auto;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.projekti img {
+	width: 80%;
+	border-radius: 25px;
+}
+
+/* Projektet e nxensve */
+
+#alone h2{
+	border-top: 2px solid #ceda00;
+	padding-top: 10px;
+	width: 80%;
+	margin:0 auto;
+	font-weight: 600;
+	padding-left: 45px;
+}
+
+/* Punet e pakos*/
+
+#punet{
+	display: flex;
+}
+
+.kohe{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#punet .pune{
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+#punet{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.pune-title{
+	font-size: 2rem;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.pune-bottom{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.pune-item{
+
+	flex-basis: 100%;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 15px;
+	border-radius: 10px;
+	background: url(images/working1.webp);
+	background-size: cover;
+	background-attachment: fixed;
+	margin:20px 5%;
+	position: relative;
+	z-index: 1;
+}
+
+.pune-item::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: .7;
+	border-radius: 10px;
+	z-index: -1;
+}
+
+.pune-item .ikona{
+	margin-top: 20px;
+	height: 140px;
+
+}
+.boksi h2{
+	margin-top:-35px;
+	font-size: 2rem;
+	color: white;
+
+}
+.boksi p{
+	margin-top: -5px;
+	font-size: 0.8rem;
+	color: white;
+	line-height: 1rem;
+}
+
+#foto1 a img{
+	
+	height: 213px;
+}
+
+#foto2 a img{
+	height: 214px;
+}
+
+#foto3 a img{
+	height: 214px;
+}
+
+ /* Pajisje shumë të vogla (smart phones) */
+
+@media only screen and (min-width: 240px) and (max-width: 575px){
+.container{
+	width: 100%;
+}
+	
+
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 7px;
+}
+
+.paragraf{
+	text-align: center;
+	margin-top: -10px;
+}
+
+.imgimg{
+	margin-top: -15px;
+}
+
+#punet{
+	flex-direction: column;
+}
+
+.img1{
+	background: url(images/working5.webp); 
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	background-position: center center;
+}
+
+.projekti{
+	flex-direction: column;
+}
+
+.pakoja h4{
+	text-align: center;
+
+}
+}
+
+ /* Pajisje të vogla (landscape smart phones) */
+ @media only screen and (min-width: 576px) and (max-width: 767px) {
+      
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 7px;
+}
+
+.paragraf{
+
+
+	text-align: center;
+	margin-top: -10px;
+}
+
+.imgimg{
+	margin-top: -15px;
+}
+
+#punet{
+	flex-direction: column;
+}
+
+.img1{
+	background: url(images/working5.webp); 
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	background-position: center center;
+}
+
+.projekti{
+	flex-direction: column;
+}
+
+.pakoja h4{
+	text-align: center;
+}
+}
+
+    /* Pajisje të mesme (tableta) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 7px;
+}
+
+.paragraf{
+
+
+	text-align: center;
+	margin-top: -10px;
+}
+
+.imgimg{
+	margin-top: -15px;
+}
+
+#punet{
+	flex-direction: column;
+}
+
+.img1{
+	background: url(images/working5.webp); 
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	background-position: center center;
+}
+
+.projekti{
+	flex-direction: column;
+}
+
+.pakoja h4{
+	text-align: center;
+}
+}
+
+/* Pajisje të mëdha (desktopa) */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+.pune-item{
+	flex-basis: 70%;
+}
+
+#punet{
+	width: 100%;
+	flex-direction: column;
+}
+
+.punet{
+	overflow: visible;
+
+}
+
+.paragraf{
+
+	text-align: center;
+	margin-top: -10px;
+}
+
+.imgimg{
+	margin-top: -15px;
+}
+
+.img1{
+	background: url(images/working5.webp); 
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	background-position: center center; 
+
+		
+}
+
+.projekti{
+	flex-direction: column;
+}
+
+.pakoja h4{
+	text-align: center;
+}
+
+ /* Pajisje shumë të mëdha (desktopa të mëdhenj) */
+
+@media only screen and (min-width: 1200px) and (max-width: 1679px){
+
+.pune-item{
+flex-basis: 70%;
+}
+
+#punet{
+	width: 100%;
+	flex-direction: column;
+}
+
+.punet{
+	overflow: visible;
+
+}
+
+.paragraf{
+	text-align: center;
+	margin-top: -10px;
+
+}
+
+.imgimg{
+	margin-top: -15px;
+}
+
+.img1{
+	background: url(images/working5.webp) no-repeat 0 -550px; 
+	height: 450px;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+			
+}
+
+.projekti{
+	flex-direction: column;
+}
+.pakoja h4{
+	text-align: center;
+
+}
+}

@@ -1,0 +1,466 @@
+body{
+
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	background-color:rgb(255, 255, 255);
+
+}
+.container{
+	
+	width: 80%;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+header ul{
+
+	margin: 0;
+	padding: 0;
+}
+header{
+	/*background-color:#ffac31; */
+	background:#e6e3e3;
+	padding-top: 20px;
+	min-height: 130px;
+	
+}
+header a{
+
+	color: #212121;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+header li{
+
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	font-size: 14px;
+
+}
+header #emri{
+	margin-top: -7%;
+	justify-content: left;
+	padding: 0;
+	float: left;
+}
+header h1{
+	color: #ffffff;
+	margin: 0;
+	margin-top: 8px;
+	
+}
+header nav{
+	
+	float: right;
+	margin-top: 20px;
+}
+.container nav a:hover {
+
+	color: #ffac31;
+}
+ .register{
+  	color: #FFF;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    padding: 2px 12px 2px 12px;
+    margin-top: -3px;
+	background: #ffffff;	
+	}
+	.register a{
+		color: #FFF;
+	}
+	#foto {
+		width: 100%;
+	}
+/*Partneret*/
+.pr{
+
+	display: flex;
+	width: 40%;
+	margin:0 auto;
+	justify-content: space-around;
+
+}
+.pa{
+
+	flex-basis:25%;
+}
+.partneret{
+
+	background: #e0e0e0;
+	text-align: center;
+	height: 300px;
+	margin-top: -5px;
+	padding-top: 30px;
+}
+.partneret h2{
+
+	margin:0;
+}
+.pa{
+	position: relative;
+	overflow: hidden;
+	padding-top: 50px;
+}
+.pa img {
+	
+	background-size:  cover;
+}
+.img img{
+
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+/* About Us */
+.as{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: space-around;
+	
+}
+.aa{
+	flex-basis: 18%;
+}
+.aboutus{
+	background: #ffffff; 
+	text-align: center;
+	height:500px;
+	margin-top: -6px;
+	padding-top: 30px;
+	
+}
+.aboutus h1{
+	margin: 0;
+	
+}
+.aa{
+	position: relative;
+	overflow: hidden;
+	padding-top: 40px;
+	
+}
+.aa img{
+	background-size: cover;
+}
+.aa p{
+	justify-content: center;
+	
+}
+/*Services*/
+.services{
+
+	overflow: hidden;
+	text-align: center;
+	background: #ffac31;
+	padding: 10px;
+
+}
+.services h2{
+	text-transform: uppercase;
+	margin-bottom:  60px;
+	color: #212121;
+	font-size: medium;
+}
+.border{
+
+	display: block;
+	margin: auto;
+	width:110px;
+	height: 3px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+.sv{
+
+	margin-bottom: 20px;
+}
+.sv a {
+
+	display: inline-block;
+	margin: 0 30px;
+	width: 110px;
+	height: 110px;
+	overflow: hidden;
+	border-radius: 25%;
+}
+.sv a img{
+
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+
+}
+.sv a:hover >img{
+
+	filter: none;
+
+}
+.section{
+
+	height: 0;
+	overflow: hidden;
+
+}
+.name{
+
+	text-transform: uppercase;
+	color: #212121;
+}
+.section:target{
+	height: auto;
+}
+.section ul{
+
+	width: 3%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.section .name  {
+
+	width: 500px;
+}
+
+.section a{
+
+	text-decoration: none;
+	font-size: 14px;
+	color: #212121;
+}
+/*Footer*/
+#footer{
+
+	background: #e6e3e3;
+	color: #000000;
+	width: 100%;
+	height: 250px;
+}
+#footer h4{
+
+	text-align: center;
+	color: #000000;
+	padding-top: 20px;
+}
+.imgimg{
+
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin:0 auto;
+	padding-top: 30px;
+}
+.image{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footer p {
+
+	text-align: center;
+	padding-top: 10px;
+
+}
+.team-member{
+	width: 70%;
+	margin: 20px auto;
+}
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+}
+.register{
+	text-align: center;
+	background: #2ea3f2;
+	/* rishiko edhe niher*/
+}
+.register a{
+	color: black;
+}
+.teksti{
+	flex-direction: column;
+}
+.container{
+	overflow:visible;
+}
+header a{
+	font-size: 14px;
+}
+
+#footer{
+	overflow: hidden;
+}
+.p{
+	text-align: center;
+	margin-top: -10px;
+
+}
+.toggle-navbar-icon{
+	display: none;
+}
+  /* Pajisje shumë të vogla (smart phones) */
+@media only screen and (min-width: 240px) and (max-width: 575px){
+.pr{
+	width: 100%;
+}
+.toggle-navbar-icon{
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	background-position: center;
+	cursor: pointer;
+	
+}
+.toggle-navbar-icon:hover{
+	opacity: 0.8;
+}
+.toggle-navbar-icon{
+	display: block;
+	float: right;
+	
+}
+.toggle-navbar{
+	width: 50px;
+	
+	
+}
+.toggle-navbar ul{
+	display: flex;
+	flex-direction: column;
+	white-space: nowrap;
+	visibility: hidden;
+	height: 0;
+	margin-bottom: 40px;
+	transition: all 0.3s ease-in-out;
+	
+}
+.toggle-navbar ul li{
+	padding: 10px 0;
+}
+.toggle-navbar ul li a{
+	padding: 10px 0;
+	opacity: 0;
+}
+
+
+}
+/* Pajisje të vogla (landscape smart phones) */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+	.titujt{
+		float: right;
+		
+	}
+
+	.center{
+		float: left;
+		
+		margin-left: 200px;
+	}
+	.toggle-navbar-icon{
+	
+		background-repeat: no-repeat;
+		background-position: center;
+		
+		background-position: center;
+		cursor: pointer;
+		
+	}
+	.toggle-navbar-icon:hover{
+		opacity: 0.8;
+	}
+	.toggle-navbar-icon{
+		display: block;
+		float: right;
+		
+	}
+	.toggle-navbar{
+		width: 300px;
+		
+		
+	}
+	.toggle-navbar ul{
+		display: flex;
+		flex-direction: column;
+		white-space: nowrap;
+		visibility: hidden;
+		height: 0;
+		margin-bottom: 40px;
+		transition: all 0.3s ease-in-out;
+		
+	}
+	.toggle-navbar ul li{
+		padding: 10px 0;
+	}
+	.toggle-navbar ul li a{
+		padding: 10px 0;
+		opacity: 0;
+	}
+	
+.navbar ul{
+	
+	margin-bottom: 10px;
+}
+.pr{
+	width: 70%;
+	margin-bottom: 10px;
+
+}
+
+.paragraf{
+
+
+	text-align: center;
+	margin-top: -10px;
+
+}
+.imgimg{
+	margin-top: -15px;
+}
+.pitem img{
+    width: 30%;
+}
+
+}
+@media only screen and (min-width: 240px) and (max-width: 575px){
+.container{
+	width: 100%;
+}
+
+	header nav{
+		width: 80%;
+	}
+
+    /* Pajisje të mesme (tableta) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+header nav{
+	width: 70%;
+	margin-bottom: 10px;
+	float: left;
+
+}
+}
+
+    /* Pajisje të mëdha (desktopa) */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+.pr{
+	width: 70%;
+	margin-bottom: 10px;
+
+
+}
+}
+
+    /* Pajisje shumë të mëdha (desktopa të mëdhenj) */
+@media only screen and (min-width: 1200px) and (max-width: 1679px){
+.pr{
+	width: 60%;
+	margin-bottom: 10px;
+
+
+}
+}

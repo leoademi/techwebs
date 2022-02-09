@@ -1,0 +1,228 @@
+body{
+
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	background-color:#FFF;
+
+}
+.container{
+	
+	width: 80%;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+header ul{
+
+	margin: 0;
+	padding: 0;
+}
+header{
+	
+	background-color:#ffac31;
+	padding-top: 20px;
+	min-height: 70px;
+	
+}
+header a{
+
+	color: #212121;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+header li{
+
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	font-size: 14px;
+
+}
+header #emri{
+
+	margin-top: -7%;
+	justify-content: left;
+	padding: 0;
+	float: left;
+}
+header h1{
+	color: #2ea3f2;
+	margin: 0;
+	margin-top: 8px;
+	
+}
+
+header nav{
+	
+	float: right;
+	margin-top: 20px;
+}
+.container nav a:hover {
+
+	color: #ffffff;
+}
+/*#emri h1:first-letter {
+	color: #ceda00;
+}
+*/
+ .register{
+
+  	color: #FFF;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    padding: 2px 12px 2px 12px;
+    margin-top: -3px;
+	background:#ffac31;		
+	}
+	.register a{
+
+		color: rgb(0, 0, 0);
+	}
+.bar{
+	
+	width: 80%;
+	margin: 0 auto;
+	overflow:hidden;
+	min-height: 70px;
+
+	
+	border-bottom: 2px solid #ceda00;
+	margin-bottom: 40px;
+}
+.wrapper div{
+
+	border: 1px solid rgba(38, 38, 38,0.5)
+}
+.wrapper{
+	display: flex;
+	width: 80%;
+	
+	margin:0 auto;
+	justify-content: space-around;
+
+}
+.team-member{
+	flex-basis:25%;
+}
+.section-header{
+
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+
+}
+.section-header h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 5px;
+	color: #8C55AA;
+
+
+}
+.team-member{
+	height: auto;
+	box-shadow: 5px 5px 15px #262626;
+	position: relative;
+	overflow: hidden;
+	padding: 15px;
+
+}
+.team-member img {
+	width: 100%;
+	height: 300px;
+	background-size:  cover;
+}
+/*fOOTER*/
+#footer{
+	background-color: #262626;
+	color: #FFF;
+	width: 100%;
+	height: 250px;
+
+
+}
+#footer h4
+{
+	text-align: center;
+	color: #2291eb;
+	padding-top: 20px;
+}
+.imgimg{
+
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin:0 auto;
+	padding-top: 30px;
+}
+.image{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footer p {
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+.teksti{
+	display: flex;
+	width: 80%;
+	flex-direction: row;
+	margin:0 auto;
+
+	justify-content: space-between;
+	margin-top: 
+
+
+}
+.pershkrimi{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 40px 0;
+}
+.pershkrimi p
+{
+	
+	width: 80%;
+}
+@media only screen and (min-width: 240px) and (max-width: 575px){
+
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 7px;
+}
+
+.paragraf{
+
+
+	text-align: center;
+	margin-top: -10px;
+
+}
+.imgimg{
+	margin-top: -15px;
+
+}
+.wrapper{
+	flex-direction: column;
+	width: 60%;
+}
+.wrapper div{
+	margin:  10px;
+}
+.teksti{
+	flex-direction: column;
+
+}
+@media only screen and (min-width: 240px) and (max-width: 575px){
+	.container{
+		width: 100%;
+	}
+}
+}
