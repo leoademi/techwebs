@@ -7,9 +7,10 @@ body{
 }
 .container{
 	
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	overflow:hidden;
+	
 }
 
 header ul{
@@ -21,7 +22,7 @@ header{
 	/*background-color:#ffac31; */
 	background:#e6e3e3;
 	padding-top: 20px;
-	min-height: 130px;
+	min-height: 60px;
 	
 }
 header a{
@@ -40,7 +41,7 @@ header li{
 
 }
 header #emri{
-	margin-top: -7%;
+	margin-top: -11%;
 	justify-content: left;
 	padding: 0;
 	float: left;
@@ -78,7 +79,7 @@ header nav{
 .pr{
 
 	display: flex;
-	width: 40%;
+	width:  40%;
 	margin:0 auto;
 	justify-content: space-around;
 

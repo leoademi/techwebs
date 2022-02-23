@@ -19,7 +19,7 @@ header ul{
 }
 header{
 	
-	background-color:#ffac31;
+	background-color:#ffffff;
 	padding-top: 20px;
 	min-height: 70px;
 	
@@ -41,17 +41,18 @@ header li{
 }
 header #emri{
 
-	margin-top: -7%;
+	margin-top: -10%;
 	justify-content: left;
 	padding: 0;
 	float: left;
 }
-header h1{
+/*header h1{
 	color: #2ea3f2;
 	margin: 0;
 	margin-top: 8px;
 	
 }
+*/
 
 header nav{
 	
@@ -62,10 +63,6 @@ header nav{
 
 	color: #ffffff;
 }
-/*#emri h1:first-letter {
-	color: #ceda00;
-}
-*/
  .register{
 
   	color: #FFF;
