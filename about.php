@@ -8,16 +8,22 @@
 
 	<title>About</title>
 </head>
+<header>
+		<div class="container">
+			<div id="emri">
+				<img src="images/techwebslogo1.png-removebg-preview.png">
+			</div>
+</header>
 
 	<body>
-	
 	<div class="bar">
 		<div id="mm">
-			<p>Lorem ipsum dolor sit LEO, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<p>Kurse profesionale në menaxhim nga një ekip profesionale të akredituar
+			në programim dhe në mësimdhënie të nivelit të lartë.
+			Të gjitha në një vend.Një ëndërr e themeluesit tonë që në fund u bë realitet.
+			Tani në ekipin tonë kemi 3 Mësimdhënës profesionalë që të gjithë më të mirët në fushën e tyre,
+			të përkushtuar dhe vetëm me një qëllim dhe ai është përmisimi i njohurive tek të rinjtë në fushen
+			e programimit.Mos harro,kurrë nuk është vonë të i'a fillosh programimit.!</p>
 
 		</div>
 	</div>
@@ -28,47 +34,47 @@
 	<div class="wrapper">
 
 	<div class="team-member">							
-		 <img src="images/aboutusperson1.png" >
+		 <img src="images/leonard.jpg" >
  			<h3>Leonard Ademi </h3>
-    		<p>Full stack developer</p>
+    		<p>Full Stack Developer</p>
 
     </div>
 
 	<div class="team-member ">
-		<img src="images/aboutusperson2.png" >
+		<img src="images/elsa.jpg" >
 		<h3>Elsa Topalli</h3>
-   			 <p>Full Stack developer</p>
+   			 <p>Full Stack Developer</p>
    	</div>
 
 	   	<div class="team-member ">
-			<img src="images/aboutusperson1.png" >
-			<h3>XX</h3>
-	   	 		<p>Software Developer</p>
+			<img src="images/partneri3.jpg" >
+			<h3>Ashley Connor</h3>
+	   	 		<p>Web Developer</p>
 	   	</div>
   	
 </div>
 	</div>
 	<div class="teksti">
 		<div class="pershkrimi">
-			<p><b>X</b>:
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.</p>
+			<p><b>Leonard</b>:
+			Njëri prej themeluesit dhe njëkohësisht Mësimdhënës në programin tonë.Profesional,
+			me vullnet të mirë dhe me një korrektësi në punë e bën një prej më të mirëve në punen
+			e tij.Si një Full Stack Developer nëse ndjekni kursin e tij do të përfitoni njohuri
+			të mjaftueshme që të filloni rrugëtimin tuaj..</p>
 		</div>
 		<div class="pershkrimi">
-			<p><b>X</b>:
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.</p>
+			<p><b>Elsa</b>:
+			Njëri prej themeluesit dhe njëkohësisht Mësimdhënës në programin tonë.Profesional,
+			me vullnet të mirë dhe me një korrektësi në punë e bën një prej më të mirëve në punen
+			e tij.Si një Full Stack Developer nëse ndjekni kursin e tij do të përfitoni njohuri
+			të mjaftueshme që të filloni rrugëtimin tuaj..</p>
 		</div>
 		<div class="pershkrimi ">
-			<p><b>X</b>:
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.</p>
+			<p><b>Ashley</b>:
+			Së fundmi i është bashkuar ekipes tonë Ashley.Një kolege punëtore me qëllim mësimdhenien më të mirë
+		 	të mundshme.Puna e saj tregon shume pas përvojës së saj në tregun botëror dhe me cilësi të
+			jashtëzakonshme.Ndjekja e kursit të saj për Web Development do të përfitoni njohuri të mjaftueshme
+			që të filloni rrugëtimin tuaj..</p>
 		</div>
 	</div>
 

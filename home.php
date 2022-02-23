@@ -17,9 +17,9 @@
 		// Image List
 		
 		images[0] = 'images/homebgck3.png';
-		images[1] = 'images/servicebackground.png';
+		images[1] = 'images/homebgck.png';
 		images[2] = 'images/homebgck4.png';
-		//images[3] = 'images/';
+		images[3] = 'images/servicebackground2.png';
 		
 		
 		// Change Image
@@ -91,19 +91,19 @@
 			<div class="as">
 
 				<div class="aa">
-					<h3> Personi i pare</h3>
-					<img src="images/aboutusperson1.png" width="200">
-					<p> Teksti i personit ne fjale</p>
+					<h3> Jennifer </h3>
+					<img src="images/college.jpg" width="200">
+					<p> Kam perfunduar kursin per Web Development.Jam shume e kenaqur</p>
 				</div>
 				<div class="aa">
-					<h3> Personi i dyte</h3>
-					<img src="images/aboutusperson1.png" width="200">
-					<p> Teksti i personit ne fjale</p>
+					<h3> Adam </h3>
+					<img src="images/abtus1.png" width="200">
+					<p> Nje ekip profesionale me synim te fituarit njohuri maksimale per studentet e pakove.</p>
 				</div>
 				<div class="aa">
-					<h3> Personi i trete</h3>
-					<img src="images/aboutusperson1.png" width="200">
-					<p> Teksti i personit ne fjale</p>
+					<h3> Paul </h3>
+					<img src="images/abtus2.png" width="200">
+					<p> Vendimi me i mire qe kam zgjedhur ishte ky kurs.Me ka ndryshuar jeten krejtesisht.</p>
 				</div>
 			</div>
 		</div>
@@ -113,9 +113,9 @@
 				<span class="border"></span>
 
 		<div class="sv">
-			<a href="#ss"><img src="images/aboutusperson1.png" width="200" ></a>
-			<a href="#ss1"><img src="images/aboutusperson2.png" width="200"></a>
-			<a href="#ss2"><img src="images/aboutusperson1.png" width="200"></a>
+			<a href="#ss"><img src="images/leonard.jpg" width="200" ></a>
+			<a href="#ss1"><img src="images/elsa.jpg" width="200"></a>
+			<a href="#ss2"><img src="images/filan.jpg" width="200"></a>
 		</div>
 
 		<div class="section" id="ss">
@@ -157,7 +157,7 @@
 				<li>Python</li>
 			</ul>
 
-			<a href="services.html">Read more &gt;&gt;</a>
+			<a href="services.php">Read more &gt;&gt;</a>
 		</div>
 	</div>
 	
