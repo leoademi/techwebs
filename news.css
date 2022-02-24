@@ -23,7 +23,7 @@ body{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-width: 80%;
+    width: 80%;
 }
 section{
     display: flex;
@@ -67,8 +67,6 @@ section{
 .left-side>* {
     margin: 5px 20px;
 }
-
-
 
 .right-side {
     flex-grow: 4;
