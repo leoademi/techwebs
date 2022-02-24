@@ -45,12 +45,7 @@
 	</script>
 </head>
 <body>
-<header>
-		<div class="container">
-			<div id="emri">
-				<img src="images/techwebslogo1.png-removebg-preview.png">
-			</div>
-</header>
+
     	<section id="foto">
 			<div class="fotoo">
 				<div class="img"><img name="slide"/>

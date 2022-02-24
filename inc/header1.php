@@ -17,7 +17,7 @@
     <header>
         <div class="container">
             <div id="emri">
-                <h1>comWEB</h1>
+                <h1>techwebs</h1>
             </div>
             <nav>
 			    <ul>

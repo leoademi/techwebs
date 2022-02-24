@@ -25,7 +25,7 @@ function login($email,$fjalekalimi){
         $_SESSION['antari']=$antari;
         header('Location: home.php');
     }else{
-        die("Nuk arrita te marr shenimet!". mysqli_error($dbconn));
+        die("Nuk arrita te marr shenimet !". mysqli_error($dbconn));
     }
 }
  

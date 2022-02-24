@@ -6,7 +6,7 @@ body{
 
 }
 .container{
-	
+	background-color: #ffac31;
 	width: 80%;
 	margin: 0 auto;
 	overflow:hidden;
@@ -19,7 +19,7 @@ header ul{
 }
 header{
 	
-	background-color:#ffffff;
+	background-color: #ffac31;
 	padding-top: 20px;
 	min-height: 70px;
 	
@@ -40,17 +40,10 @@ header li{
 
 }
 header #emri{
-
-	margin-top: -11%;
+	position:absolute;
 	justify-content: left;
 	padding: 0;
 	float: left;
-}
-header h1{
-	color: #ffffff;
-	margin: 0;
-	margin-top: 8px;
-	
 }
 header nav{
 	

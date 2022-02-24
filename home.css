@@ -41,17 +41,12 @@ header li{
 
 }
 header #emri{
-	margin-top: -11%;
+
 	justify-content: left;
 	padding: 0;
 	float: left;
 }
-header h1{
-	color: #ffffff;
-	margin: 0;
-	margin-top: 8px;
-	
-}
+
 header nav{
 	
 	float: right;
@@ -67,10 +62,11 @@ header nav{
     border-radius: 3px;
     padding: 2px 12px 2px 12px;
     margin-top: -3px;
-	background: #ffffff;	
+	background: #ffffff;
 	}
 	.register a{
 		color: #FFF;
+		
 	}
 	#foto {
 		width: 100%;
@@ -231,7 +227,8 @@ header nav{
 	font-size: 14px;
 	color: #212121;
 }
-/*Footer*/
+/*Footer
+me kqyr apet!!*/
 #footer{
 
 	background: #e6e3e3;
@@ -276,8 +273,8 @@ header nav{
 }
 .register{
 	text-align: center;
-	background: #2ea3f2;
-	/* rishiko edhe niher*/
+	background: #ffac31;
+	/* kqyr edhe niher*/
 }
 .register a{
 	color: black;

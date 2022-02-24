@@ -34,7 +34,7 @@
   <div class="clear"></div>
   <div class="errors"></div>  
   </form>
-<!--<script src="signin.js"></script>-->
+<script src="signin.js"></script>
 </body>
 
 </html>

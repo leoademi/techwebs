@@ -8,12 +8,7 @@
 
 	<title>About</title>
 </head>
-<header>
-		<div class="container">
-			<div id="emri">
-				<img src="images/techwebslogo1.png-removebg-preview.png">
-			</div>
-</header>
+
 
 	<body>
 	<div class="bar">

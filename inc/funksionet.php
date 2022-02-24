@@ -21,7 +21,7 @@
             return $result; 
         }
         else{
-            die("Nuk arrita te marr shenimet!". mysqli_error($dbcon));
+            die("Nuk arrita te marr shenimet !". mysqli_error($dbcon));
         }
     }
     function merrAntarinId($antariid){

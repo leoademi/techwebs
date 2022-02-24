@@ -5,7 +5,7 @@ body{
 	background-color:#FFF;
 }
 .container{
-	
+	background: #e6e3e3;
 	width: 80%;
 	margin: 0 auto;
 	overflow:hidden;
@@ -18,8 +18,7 @@ header ul{
 }
 
 header{
-	
-	background-color:#FFF;
+	background: #e6e3e3;
 	padding-top: 20px;
 	min-height: 70px;
 	
@@ -46,13 +45,6 @@ header #emri{
 
 	float: left;
 }
-
-header h1{
-	color: #2ea3f2;
-	margin: 0;
-	margin-top: 8px;	
-}
-
 header nav{
 	
 	float: right;
@@ -61,20 +53,17 @@ header nav{
 
 .container nav a:hover {
 
-	color: #ceda00;
+	color: #ffffff;
 }
 
-#emri h1:first-letter {
-	color: #ceda00;
-}
 
 .register{
   	color: #FFF;
-    border: 2px solid #2ea3f2;
+    border: 2px solid #9b9b9b;
     border-radius: 3px;
     padding: 2px 12px 2px 12px;
     margin-top: -3px;
-	background: #2ea3f2;	
+	
 	}
 .register a{
 	color: #FFF;

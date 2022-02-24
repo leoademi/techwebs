@@ -17,7 +17,7 @@
     <header>
         <div class="container">
             <div id="emri">
-                <h1>comWEB</h1>
+            <img src="images/techwebslogo1.png-removebg-preview.png">
             </div>
             <div class="toggle-navbar-icon" onclick="toggleNav()"><img src="images/icon.png" alt=""></div>
             <div class="toggle-navbar">
