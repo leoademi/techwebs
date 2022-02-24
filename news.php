@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 <body>
-<h4 class="center">Projektet e fundit</h4>
+<h2 class="center">Projektet e fundit</h2>
 <section id="sectioni">
     
     <?php
@@ -51,7 +51,7 @@
                 <textarea type="textarea" id='permbajtja-new' name="lajmi" placeholder="Shkruaj permbajtjen..."></textarea>
                 <div class='buttons'>
                     
-                    <input class='btn' id='cancel-btn' name="cancel" type="submit" value="cancel">
+                    <input class='btn' id='cancel-btn' name="cancel" type="submit" value="Cancel">
                     <input class='btn' id='submit-btn' name="posto" type="submit" value="Posto">
                 </div>
 
