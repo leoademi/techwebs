@@ -11,7 +11,7 @@
            
             <table id="members" >    
                 
-                <tr><th>Emri dhe Mbiemri</th><th>Telefoni</th><th>Email</th> <th>Edit</th> <th>Delete</th></tr>
+                <tr><th>Emri dhe Mbiemri</th><th> Telefoni</th><th>Email</th> <th>Edit</th> <th>Delete</th></tr>
                 <?php
                     $anetaret = merrAntaret();
                     while ($antari = mysqli_fetch_assoc($anetaret)) {
