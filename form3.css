@@ -1,0 +1,157 @@
+body {
+        background-color: #F0F6F7FF;
+        font-family: 'Ubuntu', sans-serif;
+    }
+        .main {
+        background-color: #FFFFFF;
+        width: 400px;
+        height: 600px;
+        margin: 7em auto;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px #4e4e4e;
+    }
+    .main h4{
+        text-align: center;
+        padding-top: 40px;
+         color: rgb(38, 50, 56);
+
+    }
+    .main h4 a{
+        text-decoration: none;
+        color:  #2ea3f2;
+    }
+
+    .sign {
+        padding-top: 40px;
+        color:  #ffac31;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    
+    .un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    form.form1 {
+        padding-top: 40px;
+    }
+    
+    
+    
+   
+    .un:focus{
+        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    }
+        
+    
+    
+    .submit {
+         cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+         background: linear-gradient(to right, #ffac31,#F0F6F7FF);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 35%;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+/*QITU JA NIS*/
+ 
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+}
+
+  .clear {
+   clear: both;
+  }
+  
+
+   
+   :focus {
+    border: 1px solid #00FF00;
+   }
+   
+   .error {
+    border: 1px solid #FF0000;
+   }
+
+    
+    &:hover {
+     background-color: #FF5858;
+    }
+   }
+  }
+  
+  p {
+   color: #676767;
+   font-size: 12px;
+  }
+ }
+ 
+ .error{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 15px;
+  pointer-events: none;
+
+  }
+  .error {
+   padding: 4px;
+   border-radius: 8px;
+   background-color: rgba(230, 20, 20, 0.8);
+   color: #FFF;
+   font-size: 14px;
+   transform: translateY(300px);
+   pointer-events: all;
+   margin-bottom: 10px;
+   width: 27%;
+    margin-left: 50px;
+    margin-top: -80px;
+
+
+   
+   animation: slide-in 1s ease-out forwards;
+   overflow: hidden;
+  }
+  
+  @keyframes slide-in {
+   to {
+    transform: translateY(0px);
+   }
+  }
+ }
+}
+ 
+    
+    @media (max-width: 600px) {
+        .main {
+            border-radius: 0px;
+        }
