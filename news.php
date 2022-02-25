@@ -73,6 +73,28 @@
             </div>
         </div>
     </div>
+    
+	<div id="footer">
+		<h4>Follow us</h4>
+		<p>Mos harroni të na ndiqni përmes profileve të mediave tona sociale dhe vazhdoni me lajmet tona të fundit.</p>
+		<div class="imgimg">
+			<div class ="image">
+				<a href="https://www.facebook.com/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/> </a>
+			</div>
+
+			<div class="image">
+				<a href="https://www.instagram.com/"target="_blank"><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>
+			</div>
+
+			<div class="image">
+				<a href="https://www.twitter.com/"target="_blank"><img src="images/twitter.png"></a>
+			</div>
+
+		</div>
+
+		<p class="paragraf">techwebs &copy;2021</p>
+
+	</div>
 
 
 </body>
