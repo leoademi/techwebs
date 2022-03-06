@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> ProjektiWebbb</title>
+    <title> TechWebs</title>
     <link rel="stylesheet" href="styleee.css">
     <link rel="stylesheet" type="text/css" href="home.css">
     

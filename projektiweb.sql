@@ -44,9 +44,9 @@ CREATE TABLE `antaret` (
 --
 
 INSERT INTO `antaret` (`antariid`, `emri`, `mbiemri`, `datalindjes`, `nrpersonal`, `telefoni`, `email`, `fjalekalimi`, `roli`) VALUES
-(1, 'Leonard', 'Ademi', '1999-09-09', 1112, NULL, 'leonardademi00@hotmail.com', 'Leo123', b'1'),
+(1, 'Leonard', 'Ademi', '2002-09-09', 1112, NULL, 'leonardademi00@hotmail.com', 'Leo123', b'1'),
 (2, 'Elsa', 'Topalli', '1998-08-08', 11132, NULL, 'elsatopalli@hotmail.com', 'Elsa123', b'1'),
-(3, 'Premtim', 'Pasjaqa', '2000-10-10', 123456789, '044999999', 'premtimpasjaqa@hotmail.com', 'Premtim123', b'1'),
+(3, 'Premtim', 'Pasjaqa', '2000-10-10', 123456789, '044999999', 'premtimpasjaqa@hotmail.com', 'Premtim123', b'0'),
 (4, 'Filan', 'Demi', '1986-09-26', 123456789, '044999999', 'filanfisteku@gmail.com', '123456', b'0'),
 (5, 'Filan', 'Gashi', '1987-09-26', 123456789, '044999999', 'filanfisteku@gmail.com', '123456', b'0'),
 (6, 'Filan', 'Bislimi', '1976-09-26', 123456789, '044999999', 'filanfisteku@hotmail.com', '123456', b'0'),
