@@ -124,7 +124,7 @@
 				<li>WordPress</li>
 			</ul>
 
-			<a href="services.html">Read more &gt;&gt;</a>
+			<a href="services.php">Read more &gt;&gt;</a>
 		</div>
 
 		<div class="section" id="ss1">
@@ -138,7 +138,7 @@
 			
 			</ul>
 
-			<a href="services.html">Read more &gt;&gt;</a>
+			<a href="services.php">Read more &gt;&gt;</a>
 
 		</div>
 
