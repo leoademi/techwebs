@@ -176,7 +176,7 @@
 
 		</div>
 
-		<p class="paragraf">techwebs &copy;2021</p>
+		<p class="paragraf">techwebs &copy;2022</p>
 
 	</div>
 
