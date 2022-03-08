@@ -6,7 +6,7 @@
 </head>
     <main class="container page">
         <section id="content">
-            <h3>Projekti - Pershkrimi</h3>
+            <h3>Projekti -  Pershkrimi</h3>
             <p>
                 Lorem ips um dolor sit amet consectetur adipisicing elit. Id quae ad dolore deleniti odit suscipit voluptate facilis quibusdam nam debitis tempora, quasi aut quos harum vero voluptates perspiciatis vitae eveniet!
                 <br><br>
