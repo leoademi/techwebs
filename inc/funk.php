@@ -9,8 +9,6 @@ function connectionDBB(){
         die("Koneksioni me DB nuk u be!". mysqli_error($dbconn));
     }
 }
-
-
 function login($email,$fjalekalimi){
     global $dbconn;
     $sql="SELECT antariid, emri, mbiemri, telefoni, email,fjalekalimi,roli FROM antaret ";
